@@ -1,0 +1,35 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Incident {
+  id          String   @id @default(cuid())
+  type        String
+  status      String   @default("active")
+  location    Json
+  description String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model Team {
+  id        String   @id @default(cuid())
+  name      String
+  type      String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Volunteer {
+  id        String   @id @default(cuid())
+  name      String
+  email     String   @unique
+  skills    String[]
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+} 
