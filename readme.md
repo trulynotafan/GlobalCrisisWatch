@@ -2,7 +2,7 @@
 
 A real-time global crisis monitoring dashboard that aggregates and visualizes data from multiple sources, including USGS earthquake data, international news, and emergency services.
 
-![Global Crisis Watch Dashboard](./public/dashboard-preview.png)
+
 
 ## 🎯 Project Overview
 
